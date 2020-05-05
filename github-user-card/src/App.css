@@ -1,0 +1,93 @@
+body {
+  background-color: #383838;
+}
+
+.cardContainer {
+  width: 30%;
+  padding: 30px;
+  margin: 30px auto;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+  background: #959595; /* Old browsers */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,2d2d2d+37,4e4e4e+76,383838+87,1b1b1b+100 */
+  background: #959595; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #959595 0%,
+    #2d2d2d 37%,
+    #4e4e4e 76%,
+    #383838 87%,
+    #1b1b1b 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #959595 0%,
+    #2d2d2d 37%,
+    #4e4e4e 76%,
+    #383838 87%,
+    #1b1b1b 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #959595 0%,
+    #2d2d2d 37%,
+    #4e4e4e 76%,
+    #383838 87%,
+    #1b1b1b 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  color: white;
+  /* border-radius: 30px; */
+  border: 3px solid;
+  border-image-source: linear-gradient(to left, black, silver);
+  -webkit-box-shadow: -7px -4px 11px 0px rgba(158, 158, 158, 1);
+  -moz-box-shadow: -7px -4px 11px 0px rgba(158, 158, 158, 1);
+  box-shadow: -7px -4px 11px 0px rgba(158, 158, 158, 1);
+  -webkit-box-shadow: 7px 4px 11px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 7px 4px 11px 0px rgba(0, 0, 0, 1);
+  box-shadow: 7px 4px 11px 0px rgba(0, 0, 0, 1);
+}
+
+.cardContainer a {
+  text-decoration: none;
+  color: white;
+}
+
+.cardContainer a:hover {
+  color: darkgray;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.cardHeader h1 {
+  margin: 0px;
+}
+
+.myFollowers {
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  padding: 5px 20px;
+  background-color: grey;
+  color: white;
+}
+
+.followersList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.followersList .cardContainer {
+  width: 25%;
+}
+
+.followersList .cardContainer .cardHeader {
+  border-bottom: none;
+}
